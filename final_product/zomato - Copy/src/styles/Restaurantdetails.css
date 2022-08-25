@@ -1,0 +1,91 @@
+  /* styling the logo part of the page */
+
+
+  .logo{
+         color: red;
+         font-size: 50px;
+         font-weight: bolder;
+         background-color: white;
+         border-radius: 50%;
+         width: 80px;
+         height: 80px;
+       }
+
+
+  .logo-part{
+             background-color: red;
+            }
+
+
+.login,.create{
+             color:white;
+             background-color: transparent;
+             height: 40px;
+             width: 100px;
+             border-color: white;
+             }
+             
+   .create{
+           width: 150px;
+          }
+
+/* styling the image part */
+
+
+   .image{
+          height: 400px;
+          width: 1200px;
+          margin: auto;
+         }
+
+  /*style to the tabs part  */
+
+    .head{
+          font-size: 20px;
+          font-weight: bolder;
+          color: #192f60;
+         }
+
+
+    .value{
+           font-size: 15px;
+           font-weight: 800;
+           color:#192f60
+          }
+
+
+    .about{
+           font-size: 35px;
+           font-weight: bolder;
+           color: #192f60;
+
+          }
+    ul .card{
+       width: 400px;;
+       height: auto;
+       padding-left: 50px;
+    } 
+
+     ul .card button{
+       width: 100px;
+    }
+      
+    .ind{
+       padding: 0px;
+       border: 0px;
+
+    }
+
+    .itemcount{
+      padding:0px 5px 0px 5px;
+      border-color: black;
+      color:brown;
+      border: 2px solid;
+      border-radius: 10px;
+    }
+
+    .bg{
+      background-color: blue;
+    }
+
+   

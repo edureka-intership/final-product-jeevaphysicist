@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+       
+/* give style to universe selector */
+*{
+       font-size: 16px;
+       opacity: 1;
+       box-sizing: border-box;
+      font-family: Poppins;
+   }
+
+   .he{
+    font-size: 36px;
+    font-weight: 600;
+     color: white;
+     
+   }
+  
+   /* give style to place holders */
+   ::placeholder { 
+        color:#636F88;
+           font-size: 15px;
+                font-weight: lighter;
+                }
+
+           :-ms-input-placeholder { 
+color:#636F88;
+                                }
+
+            ::-ms-input-placeholder { 
+color:#636F88;
+                                 }
+  
+/*give style to body  */
+  body{
+      background-color: white;
+      height: 1200px;
+  }
+
+ 
+  /*give style to back ground   */
+       .background{
+         width:100%;
+       height: 520px;  
+       background-blend-mode: multiply; 
+       opacity: 1;   
+       background:linear-gradient(180deg, #9D0E0E00 0%, #4F0707 100%),url(../Assets/food21.png) ;
+       background-repeat: no-repeat;
+       background-attachment: fixed;
+       background-size: cover;
+       }
+
+
+       /*give style to logo  */
+       .logo{
+           background-color: white;
+           color: red;
+           border-radius: 50%;
+            width: 100px;
+           height: 100px; 
+           font-size: 55px;
+           font-weight: bolder;
+           font-family: poppins;
+       }
+
+       /* give stylre to dropdown and search */
+       .search,.drop{
+           color: #636f88;
+           font-size: 15px;
+          }    
+          .drop{
+           width: 100%;
+           padding-bottom:15px;
+           padding-left: 10px;
+           padding-top: 15px;  
+           
+          }
+
+           /* give style to search bar */
+          .search{
+              width: 100%;
+                padding-bottom:15px;
+               padding-left: 50px;
+               padding-top: 15px;
+          } 
+          .resturant{
+              position:relative;
+          }
+         
+          .search-icon{
+            width: 30px;
+              position: absolute;
+            bottom:40px;
+            left: 30px;
+            color: #636f88;
+           }
+
+           /* quick search give style */
+           .quick{
+               font-size: 30px;
+               font-weight: bold;
+               color: #192F60;
+           }
+          
+           /* heding part */
+           .heading{
+               font-size: 18px;
+               color: #8C96AB;
+           }
+           /* card part */
+           .card{
+               width: 360px;
+               height:160px;
+               border: 0px;
+               box-shadow: 0px 3px 6px #00000029;
+               background-color :white;
+               
+           }
+           /* image */
+           .card-img{
+               height:160px;
+          width: 160px;
+          padding: 0px;
+           }
+           /* card-title */
+           .card-title{
+               text-align: left;
+               font-size: 18px;
+               color: #192F60;
+               font-weight: 600;
+           }
+           .card-description{
+               text-align: left;
+               font-size: 14px;
+               color: #8C96AB;
+           }
+
+           .app {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+          }
+        
+          .box {
+            text-align: left;
+            border: black ridge 1px;
+            border-radius: 10px;
+            margin: 3px;
+            width: 100%;
+            padding-left: 10px;
+            text-decoration: none;
+            background-color :#636F88
+          }
+          .box:hover{
+            background-color: aqua;
+          }
+        
+          .link{
+            text-decoration: none;
+            color:blue;
+           
+          }
+        
+          .link:hover{
+            text-decoration: none;
+            font-size: 20px;
+           color: red;
+          }
+
+          .mealtype{
+                    text-decoration: none;
+                   }
